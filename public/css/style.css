@@ -1336,6 +1336,7 @@ div#phonering-alo-phoneIcon {
     text-transform: uppercase;
     padding: 7px 20px 7px 47px;
     font-size: 17px; position: relative;
+    text-decoration: none;
 }
   .btn-bg-act:hover{
     background: rgb(249,138,87);
