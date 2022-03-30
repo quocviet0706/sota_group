@@ -15,7 +15,7 @@
 }
 .vegas-overlay {
   opacity: 0.5;
-  /* background: transparent url(overlays/02.png) center center repeat; */
+  background: transparent url(overlays/02.png) center center repeat;
 }
 .vegas-timer {
   top: auto;

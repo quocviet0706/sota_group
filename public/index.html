@@ -9,11 +9,24 @@
     <title>summerland</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/animation.css">
-    <link rel="stylesheet" href="./css/fullpage.css">
     <link rel="stylesheet" href="./css/vegas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.1/fullpage.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
@@ -24,10 +37,9 @@
             src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf");
         }
     </style>
-
 </head>
 
-<body data-rsssl="1" class="site home-page fp-viewing-trang-chu" style="overflow: hidden;height: 100%;">
+<body class="site home-page fp-viewing-trang-chu" style="overflow: hidden;height: 100%;">
     <div class="header container-fluid">
         <div class="menu-top">
             <div class="main-header">
@@ -48,6 +60,7 @@
                     </div>
                     <div class="collapse navbar-collapse navbar-ex1-collapse">
                         <div class="menu-main">
+                            <!-- logo -->
                             <a href="https://summerland-phanthiet.online" class="mobile-logo">
                                 <img src="https://summerland-phanthiet.online/wp-content/themes/summerland/images/logo.svg"
                                     class="mobile-logo" alt="SummerLand">
@@ -114,6 +127,7 @@
                     <div class="slider-intro vegas-container" style="height: 406.4px;">
                         <div class="vegas-slide vegas-transition-fade vegas-transition-fade-in"
                             style="transition: all 1000ms ease 0s;">
+                            <!-- background banner -->
                             <div class="vegas-slide-inner vegas-animation-fade"
                                 style="background-image: url(&quot;https://summerland-phanthiet.online/wp-content/uploads/2022/03/du-an-summerland-mui-ne-resort.jpg&quot;); background-color: rgba(0, 0, 0, 0); background-position: center center; background-size: cover; animation-duration: 3000ms;">
                             </div>
@@ -395,6 +409,7 @@
                 </div>
             </div>
         </section>
+        <!--three location-->
         <section id="section3" class="section section-default vi-tri animatedParent fp-section fp-table"
             data-fp-styles="null" data-anchor="vi-tri" style="height: 406px;">
             <div class="fp-tableCell" style="height: 406px;">
@@ -424,8 +439,8 @@
                             <div class="wimg-lc col-md-8">
                                 <div class="w-img-loc w-bor-img">
                                     <div class="img-lc fadeInRightShort delay-250 animated">
-                                        <img class="img-responsive" alt="Vị trí dự án Summerland Mũi Né"
-                                            src="https://summerland-phanthiet.online/wp-content/uploads/2022/03/vi-tri-du-an-summerland-mui-ne.jpg"
+                                        <img class="img-responsive img-fluid" alt="Vị trí dự án Summerland Mũi Né"
+                                            src="./images/vi-tri-du-an-summerland-mui-ne.jpg"
                                             title="Vị trí dự án Summerland Mũi Né">
                                     </div>
                                 </div>
@@ -436,6 +451,7 @@
                 </div>
             </div>
         </section>
+        <!-- four utilities -->
         <section id="section4" class="section section-default tien-ich animatedParent fp-section fp-table"
             data-fp-styles="null" data-anchor="tien-ich" style="height: 406px;">
             <div class="fp-tableCell" style="height: 406px;">
@@ -473,10 +489,45 @@
                                             viên nước, bar - club, các hoạt động vui chơi giải trí sẽ quy tụ tập
                                             trung về tuyến phố nhộn nhịp, sầm uất này.</p>
                                     </div>
-                                    <div class="al-libray slick-initialized slick-slider"><button
-                                            class="slick-prev slick-arrow" aria-label="Previous" type="button"
-                                            style="">Previous</button>
-                                        <div class="slick-list draggable">
+                                    <div class="al-libray slick-initialized slick-slider slide_img">
+                                        <div id="carouselExampleInterval" class="carousel slide"
+                                            data-bs-ride="carousel">
+                                            <div class="carousel-inner" style="height: 440px;">
+                                                <div class="carousel-item active" data-bs-interval="1">
+                                                    <img src="https://summerland-phanthiet.online/wp-content/uploads/2022/03/tien-ich-summerland-mui-ne-walking-street.jpg"
+                                                        class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-caption  d-md-block">
+                                                    <h5>Third slide label</h5>
+                                                    <p>Some representative placeholder content for the third slide.</p>
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="2000">
+                                                    <img src="https://summerland-phanthiet.online/wp-content/uploads/2022/03/tien-ich-summerland-mui-ne-walking-street-shopping-night-market.jpg"
+                                                        class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="https://summerland-phanthiet.online/wp-content/uploads/2022/03/tien-ich-summerland-mui-ne-walking-street.jpg"
+                                                        class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="https://summerland-phanthiet.online/wp-content/uploads/2022/03/tien-ich-summerland-mui-ne-walking-street-shopping-night-market.jpg"
+                                                        class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev " type="button"
+                                                data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon left_previous"
+                                                    aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next " type="button"
+                                                data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon right_next"
+                                                    aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                        <!-- <div class="slick-list draggable">
                                             <div class="slick-track"
                                                 style="opacity: 1; width: 4850px; transform: translate3d(-970px, 0px, 0px);">
                                                 <div class="w_sect_ul slick-slide slick-cloned" data-slick-index="-1"
@@ -533,10 +584,10 @@
                                                     <div class="text-center"><span>Walking Street</span></div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
 
-                                        <button class="slick-next slick-arrow" aria-label="Next" type="button"
-                                            style="">Next</button>
+                                        <!-- <button class="slick-next slick-arrow" aria-label="Next" type="button"
+                                            style="">Next</button> -->
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
@@ -775,10 +826,10 @@
                                         lát cắt mặt bằng được sắp xếp một cách tinh tế.</p>
                                 </div>
                             </div>
-                            <div class="img-masterp fadeInUpShort delay-500 animated">
+                            <div class="img-masterp fadeInUpShort delay-500 animated go">
 
                                 <div class="embed-responsive embed-responsive-16by9 vr360">
-                                    <iframe class="embed-responsive-item rounded"
+                                    <iframe class="embed-responsive-item rounded" style="width: 1000px;height: 550px;"
                                         src="https://360panovr.com/the-summerland-nhatrang/"
                                         allowfullscreen=""></iframe>
                                 </div>
@@ -813,7 +864,7 @@
                                 <div class="w-al-de">
                                     <div class="slick-category img-masterp fadeInUpShort delay-500 animated"><a
                                             data-filter="cate-1274">
-                                            <img class="img-responsive"
+                                            <img class="img-responsive img-fluid"
                                                 src="https://summerland-phanthiet.online/wp-content/uploads/2022/03/biet-thu.jpg"
                                                 alt="Biệt thự Summerland" title="Biệt thự Summerland">
                                         </a></div>
@@ -828,7 +879,7 @@
                                 <div class="w-al-de">
                                     <div class="slick-category img-masterp fadeInUpShort delay-500 animated"><a
                                             data-filter="cate-1275">
-                                            <img class="img-responsive"
+                                            <img class="img-responsive img-fluid"
                                                 src="https://summerland-phanthiet.online/wp-content/uploads/2022/03/nha-pho.jpg"
                                                 alt="Nhà phố" title="Nhà phố">
                                         </a></div>
@@ -877,8 +928,8 @@
                                         class="slick-prev slick-arrow" aria-label="Previous" type="button"
                                         style="">Previous</button>
                                     <div class="slick-list draggable">
-                                        <div class="slick-track"
-                                            style="opacity: 1; width: 4528px; transform: translate3d(-1132px, 0px, 0px);">
+                                        <!-- can them translation -->
+                                        <div class="slick-track">
                                             <div class="slick-slide slick-cloned" data-slick-index="-4"
                                                 aria-hidden="true" tabindex="-1" style="width: 283px;">
                                                 <div>
@@ -1889,169 +1940,15 @@
                 </div>
             </div>
         </section>
-        <script type="text/javascript">
-            var homeSlideItem = [];
-            if (jQuery(window).width() >= 1199) {
-
-                homeSlideItem = [{ "src": null, "content": null }, { "src": null, "content": null }, { "src": null, "content": null }, { "src": null, "content": null }];
-            }
-            else if (jQuery(window).width() >= 768) {
-
-                homeSlideItem = [{ "src": null, "content": null }];
-            }
-            else {
-                homeSlideItem = [{ "src": null, "content": null }];
-            }
-
-            //
-            if (jQuery(window).width() >= 1199) {
-
-                var libSlideItem = [{ "src": "https:\/\/summerland-phanthiet.online\/wp-content\/uploads\/2022\/02\/kv-1-1.jpg", "content": null }, { "src": "https:\/\/summerland-phanthiet.online\/wp-content\/uploads\/2022\/02\/kv-2-1.jpg", "content": null }, { "src": "https:\/\/summerland-phanthiet.online\/wp-content\/uploads\/2022\/02\/kv-3-1.jpg", "content": null }, { "src": "https:\/\/summerland-phanthiet.online\/wp-content\/uploads\/2022\/02\/kv-4-1.jpg", "content": null }, { "src": "https:\/\/summerland-phanthiet.online\/wp-content\/uploads\/2022\/02\/kv-5-1.jpg", "content": null }];
-            }
-            else if (jQuery(window).width() >= 768) {
-
-                var libSlideItem = [{ "src": "https:\/\/summerland-phanthiet.online\/wp-content\/uploads\/2022\/02\/kv-1-1.jpg", "content": null }, { "src": "https:\/\/summerland-phanthiet.online\/wp-content\/uploads\/2022\/02\/kv-2-1.jpg", "content": null }, { "src": "https:\/\/summerland-phanthiet.online\/wp-content\/uploads\/2022\/02\/kv-3-1.jpg", "content": null }, { "src": "https:\/\/summerland-phanthiet.online\/wp-content\/uploads\/2022\/02\/kv-4-1.jpg", "content": null }, { "src": "https:\/\/summerland-phanthiet.online\/wp-content\/uploads\/2022\/02\/kv-5-1.jpg", "content": null }];
-            }
-            else {
-                var libSlideItem = [{ "src": "https:\/\/summerland-phanthiet.online\/wp-content\/uploads\/2022\/02\/mb-kv1.jpg", "content": null }, { "src": "https:\/\/summerland-phanthiet.online\/wp-content\/uploads\/2022\/02\/mb-kv2.jpg", "content": null }, { "src": "https:\/\/summerland-phanthiet.online\/wp-content\/uploads\/2022\/02\/ky-quan-mb-3-1.jpg", "content": null }, { "src": "https:\/\/summerland-phanthiet.online\/wp-content\/uploads\/2022\/02\/mb-kv4.jpg", "content": null }, { "src": "https:\/\/summerland-phanthiet.online\/wp-content\/uploads\/2022\/02\/mb-kv5.jpg", "content": null }];
-            }
 
 
-            //
-            if (jQuery(window).width() >= 1199) {
 
-                var introSlideItem = [{ "src": "https:\/\/summerland-phanthiet.online\/wp-content\/uploads\/2022\/03\/du-an-summerland-mui-ne-resort.jpg", "content": null }];
-            }
-            else if (jQuery(window).width() >= 768) {
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.1/fullpage.min.js"></script>
 
-                var introSlideItem = [{ "src": "https:\/\/summerland-phanthiet.online\/wp-content\/uploads\/2022\/03\/du-an-summerland-mui-ne-resort.jpg", "content": null }];
-            }
-            else {
-                var introSlideItem = [{ "src": "https:\/\/summerland-phanthiet.online\/wp-content\/uploads\/2022\/03\/summer-land-mb.jpg", "content": null }];
-            }
+        <script src="./js/script.js"></script>
 
 
-            var tqSlideItem = [];
-        </script>
-        <script type="text/javascript"
-            src="https://summerland-phanthiet.online/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9"
-            id="regenerator-runtime-js"></script>
-        <script type="text/javascript"
-            src="https://summerland-phanthiet.online/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"
-            id="wp-polyfill-js"></script>
-        <script type="text/javascript" id="contact-form-7-js-extra">
-            /* <![CDATA[ */
-            var wpcf7 = { "api": { "root": "https:\/\/summerland-phanthiet.online\/wp-json\/", "namespace": "contact-form-7\/v1" }, "cached": "1" };
-        /* ]]> */
-        </script>
-        <script type="text/javascript"
-            src="https://summerland-phanthiet.online/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.5.6"
-            id="contact-form-7-js"></script>
-        <script type="text/javascript"
-            src="https://summerland-phanthiet.online/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1"
-            id="jquery-ui-core-js"></script>
-        <script type="text/javascript"
-            src="https://summerland-phanthiet.online/wp-includes/js/jquery/ui/accordion.min.js?ver=1.13.1"
-            id="jquery-ui-accordion-js"></script>
-        <script type="text/javascript"
-            src="https://summerland-phanthiet.online/wp-content/plugins/faq-schema-for-pages-and-posts//js/frontend.js?ver=2.0.0"
-            id="wp-faq-schema-frontend-js"></script>
-        <script type="text/javascript" id="wpcf7-redirect-script-js-extra">
-            /* <![CDATA[ */
-            var wpcf7r = { "ajax_url": "https:\/\/summerland-phanthiet.online\/wp-admin\/admin-ajax.php" };
-        /* ]]> */
-        </script>
-        <!-- <script type="text/javascript"
-                src="https://summerland-phanthiet.online/wp-content/plugins/wpcf7-redirect/build/js/wpcf7r-fe.js?ver=1.1"
-                id="wpcf7-redirect-script-js"></script> -->
-        <!-- <script type="text/javascript"
-                src="https://summerland-phanthiet.online/wp-content/themes/summerland/plugin/css3-animate-it/js/css3-animate-it.js"></script> -->
-        <!-- <script type="text/javascript"
-                src="https://summerland-phanthiet.online/wp-content/themes/summerland/js/jquery-3.4.1.min.js"></script> -->
-
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.2/gsap.min.js"></script>
-        <script type="text/javascript"
-            src="https://summerland-phanthiet.online/wp-content/themes/summerland/js/jquery.nicescroll.js"></script>
-        <script type="text/javascript"
-            src="https://summerland-phanthiet.online/wp-content/themes/summerland/js/bootstrap.min.js"></script>
-        <script type="text/javascript"
-            src="https://summerland-phanthiet.online/wp-content/themes/summerland/js/ekko-lightbox.min.js"></script>
-        <script type="text/javascript"
-            src="https://summerland-phanthiet.online/wp-content/themes/summerland/js/fullpage.js"></script>
-        <script type="text/javascript"
-            src="https://summerland-phanthiet.online/wp-content/themes/summerland/plugin/slick/slick.js"></script>
-        <script type="text/javascript"
-            src="https://summerland-phanthiet.online/wp-content/themes/summerland/js/script-custom.js"></script>
-        <script type="text/javascript"
-            src="https://summerland-phanthiet.online/wp-content/themes/summerland/js/homepage.js"></script>
-        <script type="text/javascript"
-            src="https://summerland-phanthiet.online/wp-content/themes/summerland/js/default.js"></script>
-        <script type="text/javascript"
-            src="https://summerland-phanthiet.online/wp-content/themes/summerland/plugin/vegas/vegas.min.js"></script>
-        <script type="text/javascript">
-            var scrollButton = $(".scroll-button");
-            var showAni = $(".scroll-ani");
-            //var hiddenLinkOnNavigation = ["#trang-chu"];
-            var minWebWidth = 1200;
-            var myFullpage = new fullpage('#fullpage', {
-                anchors: ['trang-chu', 'gioi-thieu', 'tong-quan', 'vi-tri', 'tien-ich', 'mat-bang', 'thiet-ke', 'tien-do', 'loi-ich', 'thanh-toan', 'chinh-sach', 'partner'],
-                navigation: true,
-                navigationPosition: 'right',
-                navigationTooltips: ['Trang chủ', 'Giới thiệu', 'Tổng quan', 'Vị trí', 'Tiện ích', 'Mặt bằng', 'Thiết kế', 'Tiến độ', 'Lợi ích', 'Thanh toán', 'Chính sách', 'Đối tác'],
-                showActiveTooltip: true,
-                scrollingSpeed: 900,
-                responsiveWidth: minWebWidth,
-                menu: "#nav-menu",
-                afterRender: function () {
-                    var count = 0;
-                    var dem = 1;
-                    $("#fp-nav ul li a").each(function () {
-                        if (dem > 1) {
-                            count++;
-                            var text = count < 10 ? ("0" + count) : count;
-                            $(this).append("<span class='text-num'>" + text + "</span>");
-                        }
-                        dem++;
-                    });
-                },
-                onLeave: function (origin, destination, direction) {
-                    // fix animation
-                    if ($(window).width() >= minWebWidth) { // only use on web
-                        setTimeout(() => {
-                            $("." + origin.anchor).find('.animated').removeClass('go');
-                            $("." + destination.anchor).find('.animated').addClass('go');
-                        }, 400);
-
-                        setTimeout(() => {
-                            $(".menu-main").find(".animated").addClass("go");
-                        }, 100);
-                    }
-
-
-                    scrollButton.removeClass("show");
-                    showAni.removeClass("show");
-                },
-                afterLoad: function (origin, destination, direction) {
-                    console.log(origin, destination);
-                    setTimeout(() => {
-                        showAni.addClass("show");
-                        if (destination.isLast) {
-                            $(".btn-act.register").removeClass("show");
-                        }
-
-                    }, 200);
-
-                    $(".menu-main").find(".animated").addClass("go");
-
-
-                }
-            });
-
-            $(".scroll-button").click(function () {
-                fullpage_api.moveTo("gioi-thieu", 0);
-            });
-        </script>
-        <script>
+        <!-- <script>
             var openTimeOut = null;
             function openMenu(timeout) {
                 var ftimeout = timeout || 200;
@@ -2079,7 +1976,7 @@
                 $(".w-scroll-tq").niceScroll(".nicescroll", { cursorcolor: "#f96a54" });
             });
 
-        </script>
+        </script> -->
     </div>
     <div id="fp-nav" class="fp-right fp-show-active">
         <ul>
@@ -2586,142 +2483,9 @@
                 });
             });
         })(jQuery);
-    </script>
+    //</script>
 
-
-    <script type="text/javascript"
-        id="">function getIP(a) { dataLayer.push({ event: "ipEvent", ipAddress: a.ip }) };</script>
-    <script type="text/javascript" id="" src="https://api.ipify.org?format=jsonp&amp;callback=getIP"></script>
-    <script type="text/javascript" id="" src="https://www.googletagmanager.com/gtag/js?id=AW-317493487"></script>
-    <script type="text/javascript"
-        id="">document.addEventListener("wpcf7mailsent", function (a) { dataLayer.push({ event: "formthanhcong" }) }, !1);</script>
-    <script type="text/javascript"
-        id="">window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments) } gtag("js", new Date); gtag("config", "AW-317493487");</script>
 </body>
-<!-- <header id="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="menu-top">
-                <div class="container-fluid">
-                    <a href="#" class="mobile-logo">
-                        <img src="https://summerland-phanthiet.online/wp-content/themes/summerland/images/logo.svg"
-                            class="mobile-logo" alt="SummerLand">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-
-        </nav>
-    </header> -->
-
-<!-- <div class="header container-fluid">
-        <div class="menu-top">
-            <div class="main-header">
-                <div class="container main-header-wrapper">
-                    <div class="navbar-header">
-                        <div class="col-md-8 logo-wrapper animatedParent">
-                            <div class="logo pull-left scroll-ani show">
-                                <a href="https://summerland-phanthiet.online"></a>
-                            </div>
-                        </div>
-                        <button type="button" class="navbar-toggle" data-toggle="collapse"
-                            data-target=".navbar-ex1-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar bar1"></span>
-                            <span class="icon-bar bar2"></span>
-                            <span class="icon-bar bar3"></span>
-                        </button>
-                    </div>
-                    <div class="collapse navbar-collapse navbar-ex1-collapse">
-                        <div class="menu-main">
-                            <a href="https://summerland-phanthiet.online" class="mobile-logo">
-                                <img src="https://summerland-phanthiet.online/wp-content/themes/summerland/images/logo.svg"
-                                    class="mobile-logo" alt="SummerLand">
-                            </a>
-                            <div class="clearfix"></div>
-                            <ul class="hide-show-menu" id="nav-menu">
-                                <li data-menuanchor="trang-chu" class="active"><a href="#trang-chu"
-                                        data-url="#trang-chu">Trang chủ</a></li>
-                                <li data-menuanchor="gioi-thieu" class="active1"><a href="#gioi-thieu"
-                                        data-url="#gioi-thieu">Giới thiệu</a></li>
-                                <li data-menuanchor="tong-quan"><a href="#tong-quan" data-url="#tong-quan">Tổng quan</a>
-                                </li>
-                                <li data-menuanchor="vi-tri"><a href="#vi-tri" data-url="#vi-tri">Vị trí</a></li>
-                                <li data-menuanchor="tien-ich"><a href="#tien-ich" data-url="#tien-ich">Tiện ích</a>
-                                </li>
-                                <li data-menuanchor="mat-bang"><a href="#mat-bang" data-url="#mat-bang">Mặt bằng</a>
-                                </li>
-                                <li data-menuanchor="thiet-ke"><a href="#thiet-ke" data-url="#thiet-ke">Thiết kế</a>
-                                </li>
-                                <li data-menuanchor="tien-do"><a href="#tien-do" data-url="#tien-do">Tiến độ dự án</a>
-                                </li>
-                                <li data-menuanchor="loi-ich"><a href="#loi-ich" data-url="#loi-ich">Lợi ích đầu tư</a>
-                                </li>
-                                <li data-menuanchor="thanh-toan"><a href="#thanh-toan" data-url="#thanh-toan">Tiến độ
-                                        thanh toán</a></li>
-                                <li data-menuanchor="chinh-sach"><a href="#chinh-sach" data-url="#chinh-sach">Chính sách
-                                        bán hàng</a></li>
-                                <li data-menuanchor="tin-tuc"><a href="#tin-tuc" data-url="#tin-tuc">Tin tức</a></li>
-                                <li data-menuanchor="partner"><a href="#partner" data-url="#partner">Đối tác</a></li>
-                            </ul>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                    <div class="menu-main btn-callact scroll-ani animatedParent show">
-                        <div class="btn-act hotline">
-                            <a id="hotline" href="tel:0983 944 020">
-                                <div class="phonering-alo-ph-img-circle"></div>0983 944 020
-                            </a>
-                        </div>
-                        <div class="btn-act register">
-                            <a href="#">Đăng Ký Nhận Ưu Đãi</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-stic scroll-ani show">
-                    <div class="container">
-                        <div class="row">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
 
 
 </html>

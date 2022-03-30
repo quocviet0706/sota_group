@@ -9,7 +9,15 @@
     font-style: normal;
     font-display: swap;
 }
-
+.slick-track{
+  display: flex;
+}
+.carousel-control-prev-icon.left_previous{
+  margin-left: -60px !important;
+}
+.slide_img{
+  margin-top: -160px !important;
+}
 a{
     cursor: pointer;
     text-decoration: none;outline: 0 !important; 
@@ -32,7 +40,9 @@ a{
 
 body{font-family: 'Quicksand', sans-serif;font-size: 15px; line-height: 20px; font-weight:400; color: #333333;}
 
-.center-h{display: flex; align-items: center;}
+.center-h{
+  display: flex; align-items: center;
+}
 .d-block{display: block;}
 /* =WordPress Core
 
@@ -118,6 +128,7 @@ div#phonering-alo-phoneIcon {
   .main-header .navbar-collapse.collapse{float: right;}
 .menu-main{
   float: left;
+  margin-left: 650px;
   -webkit-transition: all .30s ease-in-out;
     -moz-transition: all .30s ease-in-out;
     -ms-transition: all .30s ease-in-out;
@@ -194,6 +205,7 @@ div#phonering-alo-phoneIcon {
 
   
 .btn-act{
+
     float: left; margin-top: 23px;
 }
   
@@ -615,7 +627,7 @@ div#phonering-alo-phoneIcon {
             padding: 9px 5px 9px 30px;
             border: none;
             position: relative;
-            background: url(../images/register.svg) 15px 8px no-repeat;
+            background: url(../image/register.svg) 15px 8px no-repeat;
             background-size: 19px;
             width: 169px;
             font-size: 16px;
@@ -639,7 +651,7 @@ div#phonering-alo-phoneIcon {
             -o-transition: none;
             transition:none;
         }
-        }
+        
         .w_form_ab .form-group{margin-bottom: 5px;}
         .w_form_ab .form-group.btn_register{margin-top: 20px;    margin-bottom: 0px;}
         .w_form_ab input::-webkit-input-placeholder,.form-chinh-sach input::-webkit-input-placeholder,.form-chinh-sach textarea::-webkit-input-placeholder,.contact-popup input::-webkit-input-placeholder,.contact-popup textarea::-webkit-input-placeholder{
@@ -762,8 +774,8 @@ div#phonering-alo-phoneIcon {
     height: 181px;
     content: '';
     position: absolute;
-    bottom: 10px;
-    right: -20px;
+    bottom: 110px;
+    right: 80px;
 }
     #tab-library{
       text-align: center;
@@ -1566,7 +1578,7 @@ div#phonering-alo-phoneIcon {
 
 
  .detail-news-p{
-    background: url(../images/bg-section.jpg) center top no-repeat;
+    background: url(../image/bg-section.jpg) center top no-repeat;
     background-size: cover;
     background-attachment: fixed;
  }
@@ -2868,7 +2880,10 @@ body {font-size: 15px;}
     top: 0px;
     z-index: -1;
 }
- .al-libray .slick-track{width:auto }
+ .al-libray .slick-track{
+   width:auto;
+
+   }
  .tien-do .sl-progress .slick-next {right: 40%;}
  .tien-do .sl-progress .slick-prev {left: 40%;}
 
