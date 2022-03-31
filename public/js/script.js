@@ -1,7 +1,8 @@
+//varible scroll
 var scrollButton = $(".scroll-button");
 var showAni = $(".scroll-ani");
-//var hiddenLinkOnNavigation = ["#trang-chu"];
 var minWebWidth = 1200;
+//library fullpage animation and scroll
 var myFullpage = new fullpage('#fullpage', {
     anchors: ['trang-chu', 'gioi-thieu', 'tong-quan', 'vi-tri', 'tien-ich', 'mat-bang', 'thiet-ke', 'tien-do', 'loi-ich', 'thanh-toan', 'chinh-sach', 'partner'],
     navigation: true,
@@ -24,8 +25,8 @@ var myFullpage = new fullpage('#fullpage', {
         });
     },
     onLeave: function (origin, destination, direction) {
-        // fix animation
-        if ($(window).width() >= minWebWidth) { // only use on web
+        //animation allow use web
+        if ($(window).width() >= minWebWidth) { 
             setTimeout(() => {
                 $("." + origin.anchor).find('.animated').removeClass('go');
                 $("." + destination.anchor).find('.animated').addClass('go');
@@ -35,11 +36,10 @@ var myFullpage = new fullpage('#fullpage', {
                 $(".menu-main").find(".animated").addClass("go");
             }, 100);
         }
-
-
         scrollButton.removeClass("show");
         showAni.removeClass("show");
     },
+    //load and remove class show
     afterLoad: function (origin, destination, direction) {
         console.log(origin, destination);
         setTimeout(() => {
@@ -54,8 +54,4 @@ var myFullpage = new fullpage('#fullpage', {
 
 
     }
-});
-
-$(".scroll-button").click(function () {
-    fullpage_api.moveTo("gioi-thieu", 0);
 });
