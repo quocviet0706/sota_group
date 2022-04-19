@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quoc Do Land</title>
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- comment viet -->
+    <!-- header -->
+    <header id="header" class="header">
+        <div class="container1">
+            <!-- navbar1 -->
+            <nav class="navbar navbar-expand-lg navbar-color-text">
+                <div class="container-fluid header_logo"><img style="width:150px"
+                        src="../public/images/logo/logo quoc do.jpg" alt="quocdologo" class="img-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    <h2 class="tittle_quocdo">QUỐC ĐÔ LAND</h2>
+                                </a>
+                            </li>
+                        </ul>
+                        <li class="nav-item introduce">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-file-contract"></i>&nbsp;GIỚI THIỆU</a>
+                        </li>&nbsp;
+                        <li class="nav-item new introduce">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-newspaper"></i>&nbsp;TIN TỨC</a>
+                        </li>&nbsp;
+                        <li class="nav-item bank introduce">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-building-columns"></i>&nbsp;BANK</a>
+                        </li>
+                    </div>
+                </div>
+            </nav>
+            <div class="header_content_menu">
+                <!-- navbar menu -->
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid ">
+                        <div class="content-menu navbar-collapse">
+                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle  type_bds" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Loại BĐS
+                                          </button>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>&nbsp;
+                                <input style="width: 250px;" placeholder="Tìm theo đường hoặc quận" id="input_streets"
+                                    type="text" value="">&emsp;&ensp;
+                                <button type="button" class="btn btn_search">Tìm kiếm</button>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <nav class="navbar navbar-expand menu_content_center ">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item dropdown">
+                            <button class="btn btn-secondary dropdown-toggle button__menu" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                            Khoảng Giá
+                              </button>
+                              &nbsp;
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ">
+                        <li class="nav-item dropdown">
+                            <button class="btn btn-secondary dropdown-toggle button__menu" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                Diện Tích
+                                  </button>
+                                  &nbsp;
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ">
+                        <li class="nav-item dropdown">
+                            <button class="btn btn-secondary dropdown-toggle button__menu" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                Địa Điểm
+                                  </button>
+                                  &nbsp;
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ">
+                        <li class="nav-item dropdown">
+                            <button class="btn btn-secondary dropdown-toggle button__menu" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                Tình Trạng
+                                  </button>&nbsp;
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        </div>
+               <!-- header end -->
+          
+    <!-- banner slide -->
+    <div class="banner content_banner_slide content-document">
+        <div class="container1">
+            <div class="header_end">
+                <nav class="navbar navbar-expand text_menu_header">
+                        <div class="collapse navbar-collapse" >
+                            <ul class="navbar-nav ">
+                                <li class="nav-item title_menu">
+                                    
+                                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i>&nbsp;TRANG CHỦ</a>
+                                </li>&emsp;
+                                <li class="nav-item title_menu">
+                                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-cart-arrow-down"></i>&nbsp;MUA BĐS</a>
+                                </li>&emsp;&emsp;
+                                <li class="nav-item title_menu">
+                                    <a class="nav-link" href="#"><i class="fa-solid fa-blender-phone"></i>&nbsp;BÁN BĐS</a>
+                                </li>&emsp;&emsp;
+                                <li class="nav-item title_menu">
+                                    <a class="nav-link" href="#"><i class="fa-solid fa-arrows-to-circle"></i>&nbsp;CHO THUÊ BĐS</a>
+                                </li>&emsp;&emsp;
+                                <li class="nav-item">
+                                    <a class="nav-link title_menu" href="#"><i class="fa-solid fa-diagram-project"></i>&nbsp;DỰ ÁN</a>
+                                </li>&emsp;&emsp;
+                                <li class="nav-item">
+                                    <a class="nav-link title_menu" href="#"><i class="fa-solid fa-people-arrows-left-right"></i>&nbsp;TUYỂN DỤNG</a>
+                                </li>&emsp;&emsp;
+                                <li class="nav-item title_menu">
+                                    <a class="nav-link" href="#"><i class="fa-solid fa-id-badge"></i>&nbsp;LIÊN HỆ</a>
+                                </li>
+                            </ul>
+                        </div>
+                  
+                </nav>
+            </div>
+            <div class="top_banner">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/20190624084419-bfbb.jpg" class="d-block w-100 imd img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/2639_1.png" class="d-block w-100 img-fluid " alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/9606.jpg_wh860.jpg" class="d-block w-100 img-fluid " alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- content BDS BAN -->
+    <div class="content-document">
+        <div class="container1">
+            <div class="content-text-one">
+                <span class="tittle-one">
+                    <h2>BĐS BÁN</h2>
+                </span>
+            </div>
+            <div class="row">
+                <div class="col-md-2 img_text_circle">
+                    <div class="all_content">
+                        <img alt="Nhà mới xây mặt sát bưu điện huyện Bình Chánh"
+                            src="https://cdn.chotot.com/DOvdrDbh3d_ySQ7D6appzUQr_ChQ0rp7IO214JoEgak/preset:listing/plain/18997bd47a9c5e3082b4a826587ab04d-2764479608814442216.jpg"
+                            loading="lazy">
+                        <div class="tittle-text">
+                            Bán đất thổ cư đường Nguyễn Thanh Sơn
+                        </div>
+                        <div class="AdThumbnail_imageNum__1Tq0g"><span class="AdThumbnail_text__Y4fUC">8</span></div>
+                    </div>
+                </div>
+                <div class="col-md-2 img_text_circle">
+                    <div class="all_content">
+                        <img alt="Nhà mới xây mặt sát bưu điện huyện Bình Chánh"
+                            src="https://cdn.chotot.com/DOvdrDbh3d_ySQ7D6appzUQr_ChQ0rp7IO214JoEgak/preset:listing/plain/18997bd47a9c5e3082b4a826587ab04d-2764479608814442216.jpg"
+                            loading="lazy">
+                        <div class="tittle-text">
+                            Bán đất thổ cư đường Nguyễn Thanh Sơn
+                        </div>
+                        <div class="AdThumbnail_imageNum__1Tq0g"><span class="AdThumbnail_text__Y4fUC">8</span></div>
+                    </div>
+                </div>
+                <div class="col-md-2 img_text_circle">
+                    <div class="all_content">
+                        <img alt="Nhà mới xây mặt sát bưu điện huyện Bình Chánh"
+                            src="https://cdn.chotot.com/DOvdrDbh3d_ySQ7D6appzUQr_ChQ0rp7IO214JoEgak/preset:listing/plain/18997bd47a9c5e3082b4a826587ab04d-2764479608814442216.jpg"
+                            loading="lazy">
+                        <div class="tittle-text">
+                            Bán đất thổ cư đường Nguyễn Thanh Sơn
+                        </div>
+                        <div class="AdThumbnail_imageNum__1Tq0g"><span class="AdThumbnail_text__Y4fUC">8</span></div>
+                    </div>
+                </div>
+                <div class="col-md-2 img_text_circle">
+                    <div class="all_content">
+                        <img alt="Nhà mới xây mặt sát bưu điện huyện Bình Chánh"
+                            src="https://cdn.chotot.com/DOvdrDbh3d_ySQ7D6appzUQr_ChQ0rp7IO214JoEgak/preset:listing/plain/18997bd47a9c5e3082b4a826587ab04d-2764479608814442216.jpg"
+                            loading="lazy">
+                        <div class="tittle-text">
+                            Bán đất thổ cư đường Nguyễn Thanh Sơn
+                        </div>
+                        <div class="AdThumbnail_imageNum__1Tq0g"><span class="AdThumbnail_text__Y4fUC">8</span></div>
+                    </div>
+                </div>
+                <div class="col-md-2 img_text_circle">
+                    <div class="all_content">
+                        <img alt="Nhà mới xây mặt sát bưu điện huyện Bình Chánh"
+                            src="https://cdn.chotot.com/DOvdrDbh3d_ySQ7D6appzUQr_ChQ0rp7IO214JoEgak/preset:listing/plain/18997bd47a9c5e3082b4a826587ab04d-2764479608814442216.jpg"
+                            loading="lazy">
+                        <div class="tittle-text">
+                            Bán đất thổ cư đường Nguyễn Thanh Sơn
+                        </div>
+                        <div class="AdThumbnail_imageNum__1Tq0g"><span class="AdThumbnail_text__Y4fUC">8</span></div>
+                    </div>
+                </div>
+            </div>
+            <!-- button continute -->
+            <div class="continute mt-4">
+                <button type="button" class="btn btn-primary btn-lg btn-continute">Xem thêm tin khác</button>
+            </div>
+            <!-- content BDS MUA -->
+            <div class="content_content_two content-document">
+                <span class="tittle-two">
+                    <h2>BĐS MUA</h2>
+                </span>
+                <div class="row">
+                    <div class="col-md-2 img_text_circle">
+                        <div class="all_content">
+                            <img alt="Nhà mới xây mặt sát bưu điện huyện Bình Chánh"
+                                src="https://cdn.chotot.com/DOvdrDbh3d_ySQ7D6appzUQr_ChQ0rp7IO214JoEgak/preset:listing/plain/18997bd47a9c5e3082b4a826587ab04d-2764479608814442216.jpg"
+                                loading="lazy">
+                            <div class="tittle-text">
+                                Bán đất thổ cư đường Nguyễn Thanh Sơn
+                            </div>
+                            <div><span class="AdThumbnail_text__Y4fUC"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 img_text_circle">
+                        <div class="all_content">
+                            <img alt="Nhà mới xây mặt sát bưu điện huyện Bình Chánh"
+                                src="https://cdn.chotot.com/DOvdrDbh3d_ySQ7D6appzUQr_ChQ0rp7IO214JoEgak/preset:listing/plain/18997bd47a9c5e3082b4a826587ab04d-2764479608814442216.jpg"
+                                loading="lazy">
+                            <div class="tittle-text">
+                                Bán đất thổ cư đường Nguyễn Thanh Sơn
+                            </div>
+                            <div><span class="AdThumbnail_text__Y4fUC"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 img_text_circle">
+                        <div class="all_content">
+                            <img alt="Nhà mới xây mặt sát bưu điện huyện Bình Chánh"
+                                src="https://cdn.chotot.com/DOvdrDbh3d_ySQ7D6appzUQr_ChQ0rp7IO214JoEgak/preset:listing/plain/18997bd47a9c5e3082b4a826587ab04d-2764479608814442216.jpg"
+                                loading="lazy">
+                            <div class="tittle-text">
+                                Bán đất thổ cư đường Nguyễn Thanh Sơn
+                            </div>
+                            <div><span class="AdThumbnail_text__Y4fUC"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 img_text_circle">
+                        <div class="all_content">
+                            <img alt="Nhà mới xây mặt sát bưu điện huyện Bình Chánh"
+                                src="https://cdn.chotot.com/DOvdrDbh3d_ySQ7D6appzUQr_ChQ0rp7IO214JoEgak/preset:listing/plain/18997bd47a9c5e3082b4a826587ab04d-2764479608814442216.jpg"
+                                loading="lazy">
+                            <div class="tittle-text">
+                                Bán đất thổ cư đường Nguyễn Thanh Sơn
+                            </div>
+                            <div><span class="AdThumbnail_text__Y4fUC"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 img_text_circle">
+                        <div class="all_content">
+                            <img alt="Nhà mới xây mặt sát bưu điện huyện Bình Chánh"
+                                src="https://cdn.chotot.com/DOvdrDbh3d_ySQ7D6appzUQr_ChQ0rp7IO214JoEgak/preset:listing/plain/18997bd47a9c5e3082b4a826587ab04d-2764479608814442216.jpg"
+                                loading="lazy">
+                            <div class="tittle-text">
+                                Bán đất thổ cư đường Nguyễn Thanh Sơn
+                            </div>
+                            <div><span class="AdThumbnail_text__Y4fUC"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- btn continute -->
+                <div class="continute mt-4 ">
+                    <button type="button" class="btn btn-primary btn-lg btn-continute">Xem thêm tin khác</button>
+                </div>
+            </div>
+            <!-- banner advertisement -->
+            <div class="banner_advertisement mt-3">
+                <div class="banner__introduce">
+                    <img src="https://tpc.googlesyndication.com/simgad/8955575157826265297?" alt="banner content">
+                </div>
+            </div>
+            <!-- content du an -->
+            <div class="new_project mt-3 content-document">
+                <div class="content-text-three">
+                    <span class="tittle-one">
+                        <h2>DỰ ÁN</h2>
+                    </span>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 img_text_circle">
+                        <div class="all_content">
+                            <img alt="Nhà mới xây mặt sát bưu điện huyện Bình Chánh"
+                                src="https://cdn.chotot.com/DOvdrDbh3d_ySQ7D6appzUQr_ChQ0rp7IO214JoEgak/preset:listing/plain/18997bd47a9c5e3082b4a826587ab04d-2764479608814442216.jpg"
+                                loading="lazy">
+                            <div class="tittle-text">
+                                Bán đất thổ cư đường Nguyễn Thanh Sơn
+                            </div>
+                            <div><span class="AdThumbnail_text__Y4fUC"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 img_text_circle">
+                        <div class="all_content">
+                            <img alt="Nhà mới xây mặt sát bưu điện huyện Bình Chánh"
+                                src="https://cdn.chotot.com/DOvdrDbh3d_ySQ7D6appzUQr_ChQ0rp7IO214JoEgak/preset:listing/plain/18997bd47a9c5e3082b4a826587ab04d-2764479608814442216.jpg"
+                                loading="lazy">
+                            <div class="tittle-text">
+                                Bán đất thổ cư đường Nguyễn Thanh Sơn
+                            </div>
+                            <div><span class="AdThumbnail_text__Y4fUC"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 img_text_circle">
+                        <div class="all_content">
+                            <img alt="Nhà mới xây mặt sát bưu điện huyện Bình Chánh"
+                                src="https://cdn.chotot.com/DOvdrDbh3d_ySQ7D6appzUQr_ChQ0rp7IO214JoEgak/preset:listing/plain/18997bd47a9c5e3082b4a826587ab04d-2764479608814442216.jpg"
+                                loading="lazy">
+                            <div class="tittle-text">
+                                Bán đất thổ cư đường Nguyễn Thanh Sơn
+                            </div>
+                            <div><span class="AdThumbnail_text__Y4fUC"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 img_text_circle">
+                        <div class="all_content">
+                            <img alt="Nhà mới xây mặt sát bưu điện huyện Bình Chánh"
+                                src="https://cdn.chotot.com/DOvdrDbh3d_ySQ7D6appzUQr_ChQ0rp7IO214JoEgak/preset:listing/plain/18997bd47a9c5e3082b4a826587ab04d-2764479608814442216.jpg"
+                                loading="lazy">
+                            <div class="tittle-text">
+                                Bán đất thổ cư đường Nguyễn Thanh Sơn
+                            </div>
+                            <div><span class="AdThumbnail_text__Y4fUC"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 img_text_circle">
+                        <div class="all_content">
+                            <img alt="Nhà mới xây mặt sát bưu điện huyện Bình Chánh"
+                                src="https://cdn.chotot.com/DOvdrDbh3d_ySQ7D6appzUQr_ChQ0rp7IO214JoEgak/preset:listing/plain/18997bd47a9c5e3082b4a826587ab04d-2764479608814442216.jpg"
+                                loading="lazy">
+                            <div class="tittle-text">
+                                Bán đất thổ cư đường Nguyễn Thanh Sơn
+                            </div>
+                            <div><span class="AdThumbnail_text__Y4fUC"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- btn continute -->
+                <div class="continute mt-4">
+                    <button type="button" class="btn btn-primary btn-lg btn-continute">Xem thêm tin khác</button>
+                </div>
+            </div>
+            <!-- content QUOC DO LAND -->
+            <div class="people_hrm mt-4 content-document">
+                <div class="content-text-four">
+                    <span class="tittle-four">
+                        <h2>QUỐC ĐÔ LAND</h2>
+                    </span>
+                </div>
+                <!-- circle nhan su -->
+                <div class="row mt-3">
+                    <div class="col-md-2">
+                        <div class="all_content">
+                            <a href="#" target="_" class="block_item"> <span class="thumb"><span class="title">NHÂN
+                                        SỰ</span>
+                                </span> </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="all_content">
+                            <a href="#" class="block_item"> <span class="thumb"><span class="title">NHÂN
+                                        SỰ</span></span> </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="all_content">
+                            <a href="#" class="block_item"> <span class="thumb"> <span class="title">NHÂN SỰ</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="all_content">
+                            <a href="#" class="block_item"> <span class="thumb"> <span class="title">NHÂN SỰ</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="all_content">
+                            <a href="#" class="block_item"> <span class="thumb"><span class="title"> NHÂN SỰ
+                                    </span></span> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content news -->
+            <div class="new_project mt-3 content-document">
+                <div class="content-text-three">
+                    <span class="tittle-one">
+                        <h2>TIN TỨC</h2>
+                    </span>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 img_text_circle">
+                        <div class="all_content">
+                            <img alt="Nhà mới xây mặt sát bưu điện huyện Bình Chánh"
+                                src="https://cdn.chotot.com/DOvdrDbh3d_ySQ7D6appzUQr_ChQ0rp7IO214JoEgak/preset:listing/plain/18997bd47a9c5e3082b4a826587ab04d-2764479608814442216.jpg"
+                                loading="lazy">
+                            <div class="tittle-text">
+                                Bán đất thổ cư đường Nguyễn Thanh Sơn
+                            </div>
+                            <div><span class="AdThumbnail_text__Y4fUC"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 img_text_circle">
+                        <div class="all_content">
+                            <img alt="Nhà mới xây mặt sát bưu điện huyện Bình Chánh"
+                                src="https://cdn.chotot.com/DOvdrDbh3d_ySQ7D6appzUQr_ChQ0rp7IO214JoEgak/preset:listing/plain/18997bd47a9c5e3082b4a826587ab04d-2764479608814442216.jpg"
+                                loading="lazy">
+                            <div class="tittle-text">
+                                Bán đất thổ cư đường Nguyễn Thanh Sơn
+                            </div>
+                            <div><span class="AdThumbnail_text__Y4fUC"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 img_text_circle">
+                        <div class="all_content">
+                            <img alt="Nhà mới xây mặt sát bưu điện huyện Bình Chánh"
+                                src="https://cdn.chotot.com/DOvdrDbh3d_ySQ7D6appzUQr_ChQ0rp7IO214JoEgak/preset:listing/plain/18997bd47a9c5e3082b4a826587ab04d-2764479608814442216.jpg"
+                                loading="lazy">
+                            <div class="tittle-text">
+                                Bán đất thổ cư đường Nguyễn Thanh Sơn
+                            </div>
+                            <div><span class="AdThumbnail_text__Y4fUC"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 img_text_circle">
+                        <div class="all_content">
+                            <img alt="Nhà mới xây mặt sát bưu điện huyện Bình Chánh"
+                                src="https://cdn.chotot.com/DOvdrDbh3d_ySQ7D6appzUQr_ChQ0rp7IO214JoEgak/preset:listing/plain/18997bd47a9c5e3082b4a826587ab04d-2764479608814442216.jpg"
+                                loading="lazy">
+                            <div class="tittle-text">
+                                Bán đất thổ cư đường Nguyễn Thanh Sơn
+                            </div>
+                            <div><span class="AdThumbnail_text__Y4fUC"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 img_text_circle">
+                        <div class="all_content">
+                            <img alt="Nhà mới xây mặt sát bưu điện huyện Bình Chánh"
+                                src="https://cdn.chotot.com/DOvdrDbh3d_ySQ7D6appzUQr_ChQ0rp7IO214JoEgak/preset:listing/plain/18997bd47a9c5e3082b4a826587ab04d-2764479608814442216.jpg"
+                                loading="lazy">
+                            <div class="tittle-text">
+                                Bán đất thổ cư đường Nguyễn Thanh Sơn
+                            </div>
+                            <div><span class="AdThumbnail_text__Y4fUC"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- btn continute -->
+                <div class="continute mt-4">
+                    <button type="button" class="btn btn-primary btn-lg btn-continute">Xem thêm tin khác</button>
+                </div>
+            </div>
+            <!-- content DOI TAC -->
+            <div class="people_hrm mt-4 content-document">
+                <div class="content-text-four">
+                    <span class="tittle-four">
+                        <h2>ĐỐI TÁC</h2>
+                    </span>
+                </div>
+                <!-- circle doi tac -->
+                <div class="row mt-3">
+                    <div class="col-md-2">
+                        <div class="all_content">
+                            <a href="#" class="block_item"><span class="thumb"><span class="title">BECAMEX</span></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="all_content">
+                            <a href="#" class="block_item"><span class="thumb"><span class="title">BECAMEX</span></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="all_content">
+                            <a href="#" class="block_item"> <span class="thumb"> <span class="title">BECAMEX</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="all_content">
+                            <a href="#" class="block_item"> <span class="thumb"> <span class="title">BECAMEX</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="all_content">
+                            <a href="#" class="block_item"> <span class="thumb"><span class="title"> BECAMEX
+                                    </span></span> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+    </div>
+    </div>
+    <!-- footer -->
+    <footer id="footer content-document">
+        <div class="container1 ">
+            <div class="contact_profile">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h3 class="title_contact">QUỐC ĐÔ LAND</h3>
+                        <div class="conntact_information">
+                            Hoặc nếu bạn có bất động sản muốn bán hoặc cho thuê, bạn có thể đăng tin bán nhà trên Chợ
+                            Tốt để dễ dàng tiếp cận với hàng nghìn người đang có nhu cầu.
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="title_contact">TRỤ SỞ</h3>
+                        <div class="conntact_information">
+                            Hoặc nếu bạn có bất động sản muốn bán hoặc cho thuê, bạn có thể đăng tin bán nhà trên Chợ
+                            Tốt để dễ dàng tiếp cận với hàng nghìn người đang có nhu cầu.
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="title_contact">HỖ TRỢ KHÁCH HÀNG</h3>
+                        <div class="conntact_information">
+                            Có bất cứ thắc mắc vui lòng liên hệ theo địa chỉ mà chúng tôi cung cấp. Vui lòng liên hệ cho
+                            chúng tôi theo địa chỉ sotagroup.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="link_address mt-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="address">
+                            <h3>LIÊN KẾT</h3>
+                            <i class="fa-brands fa-facebook icon_address"></i>
+                            <i class="fa-brands fa-instagram icon_address"></i>
+                            <i class="fa-solid fa-info icon_address"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="map_streets">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.7108813523973!2d106.64447641477204!3d10.847319392273437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752990b2654e15%3A0x676c6c51bd8c1d9f!2zMTU0IFBo4bqhbSBWxINuIENoacOqdSwgUGjGsOG7nW5nIDksIEfDsiBW4bqlcCwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e1!3m2!1svi!2s!4v1647768132214!5m2!1svi!2s"
+                                width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
